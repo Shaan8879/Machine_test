@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://testffc.nimapinfotech.com/auth/login"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Email" value="shahnawazq222@gmail.com"/>
+    <parameter name="Username" value="shahnawazq222@gmail.com"/>
+    <parameter name="Mobile" value="8879818544"/>
+    <parameter name="Password" value="Ss@889818544"/>
+    <parameter name="Name" value="Shahnawaz Qureshi"/>
+    <classes>
+      <class name="NimapInfotech.LoginJourny.Login">
+        <methods>
+          <include name="TearDown"/>
+          <include name="LoginTest" invocation-numbers="0"/>
+          <include name="Setup"/>
+          <include name="SignUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- NimapInfotech.LoginJourny.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
